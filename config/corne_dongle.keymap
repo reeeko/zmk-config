@@ -92,7 +92,7 @@
         };
 
         MISC {
-	    display-name = "Misc"
+	    display-name = "Misc";
             bindings = <
 &trans  &kp LC(LG(LS(N1)))    &kp LS(LC(LG(N2)))  &kp LS(LC(LG(N3)))  &kp LS(LC(LG(N4)))  &kp LS(LC(LG(N5)))    &kp LS(LC(LG(N6)))  &kp LS(LC(LG(N7)))  &kp LS(LC(LG(N8)))  &kp LS(LC(LG(N9)))  &kp LS(LC(LG(N0)))  &trans
 &trans  &kp LC(LG(NUMBER_1))  &kp LG(LC(N2))      &kp LC(LG(N3))      &kp LC(LG(N4))      &kp LC(LG(N5))        &kp LC(LG(N6))      &kp LC(LG(N7))      &kp LC(LG(N8))      &kp LC(LG(N9))      &kp LC(LG(N0))      &trans
