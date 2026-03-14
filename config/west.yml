@@ -8,8 +8,6 @@ manifest:
     # See https://docs.zephyrproject.org/3.2.0/develop/west/manifest.html#projects
     - name: carrefinho                            # <--- add this
       url-base: https://github.com/carrefinho     # <--- and this
-    - name: m165437 #new entry
-      url-base: https://github.com/M165437 #new entry
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -18,8 +16,5 @@ manifest:
     - name: prospector-zmk-module                 # <--- and these
       remote: carrefinho                          # <---
       revision: feat/new-status-screens                              # <---
-    - name: nice-view-gem #new entry
-      remote: m165437 #new entry
-      revision: main #new entry
   self:
     path: config
